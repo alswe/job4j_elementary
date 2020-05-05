@@ -15,14 +15,14 @@ public class PointTest {
     @Test
     public void distancem1m111() {
         double result = Point.distance(-1, -1, 1, 1);
-        double expected = 2.0 * Math.sqrt(2.0);
+        double expected = 2.828;
         Assert.assertEquals(result, expected, 0.01);
     }
 
     @Test
     public void distance1133() {
         double result = Point.distance(1, 1, 3, 3);
-        double expected = 2.0 * Math.sqrt(2.0);
+        double expected = 2.828;
         Assert.assertEquals(result, expected, 0.01);
     }
 }
