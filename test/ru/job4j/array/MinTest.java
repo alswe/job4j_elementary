@@ -6,6 +6,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
 public class MinTest {
+
     @Test
     public void whenFirstMin() {
         assertThat(
@@ -35,4 +36,5 @@ public class MinTest {
                 is(2)
         );
     }
+
 }

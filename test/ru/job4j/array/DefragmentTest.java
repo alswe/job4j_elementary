@@ -45,4 +45,5 @@ public class DefragmentTest {
         String[] expected = {"I", "wanna", "be", "compressed", null, null, null};
         assertThat(compressed, is(expected));
     }
+
 }

@@ -5,6 +5,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class ArrayCharTest {
+
     @Test
     public void whenStartWithPrefixThenTrue() {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
@@ -20,4 +21,5 @@ public class ArrayCharTest {
         boolean result = ArrayChar.startsWith(word, pref);
         assertThat(result, is(false));
     }
+
 }

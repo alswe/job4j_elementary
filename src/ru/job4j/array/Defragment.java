@@ -1,6 +1,7 @@
 package ru.job4j.array;
 
 public class Defragment {
+
     public static String[] compress(String[] array) {
         for (int index = 0; index < array.length; index++) {
             if (array[index] == null) {
@@ -17,8 +18,6 @@ public class Defragment {
         return array;
     }
 
-
-
     public static void swap(String[] array, int firstElement, int secondElement) {
         String temp = array[secondElement];
         array[secondElement] = array[firstElement];
@@ -33,4 +32,5 @@ public class Defragment {
             System.out.print(compressed[index] + " ");
         }
     }
+
 }
